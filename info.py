@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '507206621').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/desaibhikhu") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002376380182'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/boatrixmovierequest')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/boamovie')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002354322033').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -37,7 +37,7 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002320152243'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002033382998')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002033382998'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002281623343') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002033382998')) # 
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002267482168')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+0HDfTLhYyCFkY2Nl') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
