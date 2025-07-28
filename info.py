@@ -41,14 +41,14 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002267482168')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+0HDfTLhYyCFkY2Nl') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "48b4aed300d4a3b600da572df5c416c25cd22da1")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'bedlio.xyz')
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", ' ')
 SHORTENER_API2 = environ.get("SHORTENER_API2", " ")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", ' ')
 SHORTENER_API3 = environ.get("SHORTENER_API3", " ")
